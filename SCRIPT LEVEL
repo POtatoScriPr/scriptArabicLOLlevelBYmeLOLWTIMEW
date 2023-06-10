@@ -178,7 +178,9 @@ local RootPart = Player.Character.HumanoidRootPart
 
 local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/cypherdh/VanisUILIB/main/.gitignore'))()
 
-local Window = library:CreateWindow("TPS: Street Soccer", "Version: 1.48", 10044538000)
+local Window = library:CreateWindow("سكربت اللفل", "", 10044538000)
+
+local Tab = Window:CreateTab("Scripts")
 
 local LPPage = Tab:CreateFrame("اللفل")
 
